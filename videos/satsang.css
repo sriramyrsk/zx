@@ -1,0 +1,58 @@
+.satsang-type{
+    background-color: black;
+    color: white;
+}
+.satsang-type a{
+    color: white;
+}
+.sat-type__prompt{
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    margin: 1rem;
+    text-align: center;
+}
+.satsang-cck1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20rem);
+    grid-template-rows: 400px 400px;
+    grid-gap: 0.5rem;
+    justify-content: center;
+}
+.sat-cont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hidden_a{
+    padding: 55% 50%;
+    /* visibility: hidden; */
+    position: absolute;
+}
+.sat-thumb{
+    background-image: url("../images/ma-devaki1.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 85%;
+    background-position: center;
+    position: relative;
+}
+.sat-thumb2{
+    background-size: cover;
+    background-image: url("../images/bala-kumaran1.jpg");
+
+}
+.sat-thumb3{
+    background-image: url("../images/ganesan1.jpg");
+}
+.sat-thumb4{
+    background-image: url("../images/ma-vijayalakshmi1.jpg");
+    background-position: right;
+}
+.sat-thumb5{
+    background-image: url("../images/nochur1.jpg");
+}
+.sat-thumb6{
+    background-image: url("../images/truman-caylor-wadlington1.jpeg");
+}

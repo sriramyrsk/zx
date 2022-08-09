@@ -1,0 +1,109 @@
+.vdo-checking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.vdoch-container{
+    background-color: rgb(100, 148, 237);
+    width: 50%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.vdoch-container a{
+    color: white;
+}
+.vdoch-qns h1{
+    text-align: center;
+}
+.vdoch-ans{
+    display: flex;
+    justify-content: space-evenly;
+}
+.vdoch-ans a:hover,
+.vdoch-ans a:active{
+    color: rgb(43, 226, 43);
+}
+#vdos-baghwan{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill,25rem);
+    grid-template-rows:  23rem 23rem;
+    justify-content: center;
+}
+.vdobh-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.vdobh-thumb{
+    width: 100%;
+    height: 70%;
+    background: rgb(58, 58, 58);
+}
+.vdobh-fontc{
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.vdobh-fontc button:hover,
+.vdobh-fontc button:active{
+    background-color: #ccc;
+}
+.vdobh-thumb1{
+    background-image: url("../images/yrvdo4.jpg");
+    background-size: 500px;
+    background-position: center;
+}
+.vdobh-thumb2{
+    background-image: url("../images/y.jpg");
+    background-size: cover;
+    background-position: top 100% left 70%;
+}
+.vdobh-thumb3{
+    background-image: url("../images/yrvdo3.jpg");
+    background-size: cover;
+}
+.vdobh-thumb4{
+    background-image: url("../images/yrvdo1.jpg");
+    background-size: cover;
+}
+.vdobh-thumb5{
+    background-image: url("../images/yrvdo2.jpg");
+    background-size: cover;
+}
+.vdobh-thumb6{
+    background-image: url("../images/yrvdo5.jpg");
+    background-size: 500px;
+    background-position: center;
+}
+.vdobh-thumb7{
+    background-image: url("../images/yrvdo6.jpg");
+    background-size: 500px;
+    background-position: center;
+}
+.vdobh-thumb8{
+    background-image: url("../images/yrvdo8.jpg");
+    background-size: 500px;
+    background-position: center;
+}
+@media(max-width:27rem){
+    .vdoch-container{
+        width: 95%;
+        height: 15rem;
+    }
+    #vdos-baghwan{
+        grid-auto-flow: row;
+        grid-auto-rows: 23rem;
+        /* grid-template-rows:  repeat(10,23rem); */
+        grid-template-columns: 95%;
+        grid-row-gap: 1.5rem;
+    }
+}

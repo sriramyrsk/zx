@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@400;700&family=Share+Tech+Mono&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+a{
+    color: black;
+}
+body{
+    font-family: Raleway,sans-serif;
+    display: grid;
+    grid-row-gap: 0.5rem;
+    grid-template-rows: 5rem minmax(89vh,auto) 1.5rem;
+
+
+}
+.yd-header{
+    display: flex;
+    z-index: 100;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5cdb95;
+}
+.yd-main__title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #05386b;
+}
+
+.yd-main__title a:hover,
+.yd-main__title a:active{
+    color: white;
+}
+.yd-main__nav{
+    width: 25%;
+}
+.yd-main__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 50%; */
+}
+.yd-main__item{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #05386b;
+}
+.yd-main__item:hover,
+.yd-main__item:active{
+    color: white;
+}
+.yd-footer{
+    background-color: black;
+    /* margin-top: 1rem; */
+}
+.yd-main__list--footer{
+    display: flex;
+    justify-content:space-evenly
+}
+.yd-main__item--footer{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+button{
+    padding: 0.5rem;
+    border: none;
+    width: 7rem;
+}
+button:hover,
+button:active{
+    cursor: pointer;
+}
+@media(max-width:27rem){
+    body{
+        grid-template-rows: 8rem minmax(89vh,auto) 1.5rem;
+    }
+    .yd-header{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .yd-main__title{
+        font-size: 1.3rem;
+    }
+    .yd-main__nav{
+        width: 100%;
+    }
+}

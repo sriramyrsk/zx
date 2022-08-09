@@ -1,0 +1,31 @@
+/* .yd-img1__cont  */
+main{
+    background-color: black;
+}
+#yd-intro,
+#yd-intro2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,29rem);
+    justify-content: center;
+    /* grid-template-rows: 44rem; */
+    grid-gap: 0.5rem;
+    background-color: black;
+    margin-top: 2rem;
+}
+#yd-intro2{
+    grid-template-columns: repeat(autofit,37rem);
+    margin-top: 0.5rem;
+}
+.yd-img__cont{
+    width: 100%;
+}
+.yd-img,
+.yd2-img{
+    width: 100%;
+    height: 100%;
+}
+.yd-main__slogan1{
+    color: white;
+    background-color: black;
+    margin: 0.5rem auto;
+}
